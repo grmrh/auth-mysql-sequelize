@@ -1,0 +1,39 @@
+{
+  "name": "auth-mysql-sequelize",
+  "version": "1.0.0",
+  "description": "node authentication using passport, mysql, sequelize and handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grmrh/auth-mysql-sequelize.git"
+  },
+  "keywords": [
+    "node",
+    "authentication",
+    "passport",
+    "mysql",
+    "sequelize",
+    "and",
+    "handlebars"
+  ],
+  "author": "Grace Rhee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grmrh/auth-mysql-sequelize/issues"
+  },
+  "homepage": "https://github.com/grmrh/auth-mysql-sequelize#readme",
+  "dependencies": {
+    "bcrypt-node": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "mysql2": "^1.5.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.38.0"
+  }
+}
